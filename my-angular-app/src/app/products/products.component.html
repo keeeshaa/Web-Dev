@@ -1,5 +1,6 @@
 <h2 class="catalog-title">Каталог товаров</h2>
 
+<<<<<<< HEAD
 <app-product-list (categorySelected)="onCategorySelected($event)"></app-product-list>
 
 <div class="products-container">
@@ -7,3 +8,26 @@
 </div>
 
 
+=======
+<div class="products-container">
+  <div class="product-card" *ngFor="let product of products">
+    <div class="gallery">
+      <img [src]="product.imageUrls[0]" alt="{{ product.name }}">
+    </div>
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <p>⭐ {{ product.rating }}</p>
+    
+    <a [href]="product.link" target="_blank" class="details-button">Подробнее</a>
+
+    <div class="share-buttons">
+      <button (click)="shareOnWhatsApp(product.link)">
+        📱 Поделиться в WhatsApp
+      </button>
+      <button (click)="shareOnTelegram(product.link)">
+        📩 Поделиться в Telegram
+      </button>
+    </div>
+  </div>
+</div>
+>>>>>>> d21bc82a14c9ea5c0142594b87342798347d676b
