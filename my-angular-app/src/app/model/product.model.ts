@@ -1,7 +1,9 @@
-export interface Product{
-    name:string;
-    description:string;
-    imageUrls:string[];
-    rating:number;
-    link:string;
-}
+export interface Product {
+    name: string;
+    description: string;
+    imageUrls: string[];
+    rating: number;
+    link: string;
+    category: string;
+    likes: number;
+  }
