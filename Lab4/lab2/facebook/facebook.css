@@ -1,0 +1,68 @@
+img {
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    display: inline;
+    height: 106px;
+    width: 321px;
+    margin: -28px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+}
+
+.logo-img {
+    padding-bottom: 16px;
+    padding-top: 112px;
+    width: 548px;
+    height: 54px;
+}
+
+h2 {
+    color: rgb(28, 30, 33);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    display:inline-block;
+    line-height: 32px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 64px;
+}
+
+.text {
+    width: 548px;
+    height: 266px;
+    padding-right: 32px;
+    vertical-align: top;
+}
+
+.user-input {
+    border-color: rgb(221, 223, 226);
+    border-radius: 6px;
+    border-width: 1px;
+    padding:16px 14px 16px 14px;
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-stretch: 100%;
+    font-weight: 400;
+    overflow-x: clip;
+    overflow-y: clip;
+    width: 330px;
+    height: 22px;
+    text-align: start;
+    text-rendering: auto;
+    vertical-align: middle;
+    cursor: text;
+}
+.user-input:focus {
+    border-color: rgb(8,102,255);
+    border-radius: 6px;
+    border-width: 1px;
+    outline: none;
+}
+.input-area {
+    display: inline;
+    width: 364px;
+    height: 64px;
+    padding:0 6px 0 6px;
+}
