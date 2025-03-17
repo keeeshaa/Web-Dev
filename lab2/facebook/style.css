@@ -26,7 +26,6 @@ main {
     gap: 0;
     align-items: flex-start;
     justify-content: center;
-    grid-auto-rows: auto;
 }
 
 /*Logo and short description under it*/
@@ -35,7 +34,7 @@ main {
     margin-top: 112px;
     padding-right: 32px;
     box-sizing: border-box;
-    align-items: top;
+    align-items: flex-start;
 }
 
 #fb-logo {

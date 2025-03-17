@@ -1,0 +1,62 @@
+.product-item {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-item h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.product-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.like-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  background: #cc0000;
+}
+
+.remove-btn {
+  background: #ffcc00;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #e6b800;
+}
+.whatsapp-btn { background-color: #25D366; color: white; }
+.telegram-btn { background-color: #0088cc; color: white; }
+
+
